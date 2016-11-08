@@ -1,0 +1,500 @@
+/*variables*/
+/*mixins*/
+/*Fonts*/
+@font-face {
+  font-family: "RobotoRegular";
+  src: url("../fonts/RobotoRegular.eot");
+  src: url("../fonts/RobotoRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "PlayfairDisplayRegular";
+  src: url("../fonts/PlayfairDisplayRegular.eot");
+  src: url("../fonts/PlayfairDisplayRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/PlayfairDisplayRegular.woff") format("woff"), url("../fonts/PlayfairDisplayRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+header {
+  background-image: url("../img/bg-header.png");
+  padding-top: 15px;
+  padding-bottom: 50px;
+}
+header h1.main-logo-title {
+  color: #10b4b6;
+  font-family: RobotoRegular;
+  font-size: 30px;
+  font-weight: 100;
+  display: inline-block;
+}
+header h1.main-logo-title:before {
+  content: '';
+  display: inline-block;
+  width: 44px;
+  height: 50px;
+  background: url(../img/logo.png) no-repeat center;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+header .nav-options {
+  margin-top: 10px;
+}
+header .nav-options li a {
+  color: white;
+  font-family: RobotoRegular;
+  font-size: 13px;
+  font-weight: 900;
+}
+header .nav-options li a:hover {
+  color: #00e0d0;
+}
+header .slide-area {
+  padding-top: 170px;
+}
+header .slide-area h2 {
+  color: white;
+  font-family: PlayfairDisplayRegular;
+  font-size: 32px;
+  font-weight: 900;
+}
+header .slide-area h2:after {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 50px;
+  background-color: #00e0d0;
+  margin: 20px auto;
+}
+header .slide-area .slide-info {
+  color: white;
+  font-family: RobotoRegular;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+}
+header .slide-area .learn-more {
+  border-color: #00e0d0;
+  margin-top: 100px;
+  color: #00e0d0;
+  font-family: RobotoRegular;
+  font-size: 16px;
+  font-weight: 400;
+}
+.our-story {
+  margin: 40px 0;
+}
+.our-story .replace-logo {
+  vertical-align: middle;
+}
+.our-story .title-our-story {
+  color: #413d4b;
+  font-family: PlayfairDisplayRegular;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+.our-story p {
+  color: #413d4b;
+  font-family: RobotoRegular;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  opacity: 0.75;
+  margin-bottom: 15px;
+}
+.our-story button {
+  color: #00e0d0;
+  font-family: RobotoRegular;
+  font-size: 16px;
+  font-weight: 400;
+  border-color: #00e0d0;
+  text-transform: uppercase;
+}
+.watch {
+  background: url(../img/bg-watching.png) no-repeat center;
+  padding: 202px 0;
+}
+.watch h3 {
+  color: white;
+  font-family: RobotoRegular;
+  font-size: 16px;
+  font-weight: 900;
+}
+.watch h3:before {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 100px;
+  border: 3px solid white;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: transparent url(../img/play.png) no-repeat center;
+  margin: 60px auto;
+}
+.expertise {
+  padding: 80px 0;
+}
+.expertise .exp-title {
+  color: #413d4b;
+  font-family: PlayfairDisplayRegular;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.expertise .exp-t-paragraph {
+  color: #2f2d35;
+  font-family: PlayfairDisplayRegular;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  opacity: 0.75;
+}
+.expertise .exp-t-paragraph:after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 50px;
+  background-color: #413d4b;
+  margin: 15px auto;
+}
+.expertise .exp-content .cont {
+  padding: 40px 33px;
+}
+.expertise .exp-content .cont h3 {
+  margin: 20px 0;
+  color: #413d4b;
+  font-family: RobotoRegular;
+  font-size: 14px;
+  font-weight: 900;
+}
+.expertise .exp-content .cont h3:before {
+  content: '';
+  display: block;
+  height: 50px;
+  width: 50px;
+  margin: 20px auto;
+}
+.expertise .exp-content .cont h3.monitor:before {
+  background: url(../img/monitor.png) no-repeat center;
+}
+.expertise .exp-content .cont h3.pan:before {
+  background: url(../img/pen.png) no-repeat center;
+}
+.expertise .exp-content .cont h3.phone:before {
+  background: url(../img/phone.png) no-repeat center;
+}
+.expertise .exp-content .cont h3.graph:before {
+  background: url(../img/graph.png) no-repeat center;
+}
+.expertise .exp-content .cont h3.game-icon:before {
+  background: url(../img/game.png) no-repeat center;
+}
+.expertise .exp-content .cont h3.heart:before {
+  background: url(../img/heart.png) no-repeat center;
+}
+.expertise .exp-content .cont p {
+  color: #333;
+  font-family: RobotoRegular;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+}
+.expertise .exp-content .web,
+.expertise .exp-content .brand {
+  border-right: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+}
+.expertise .exp-content .mob {
+  border-bottom: 1px solid #f2f2f2;
+}
+.expertise .exp-content .search,
+.expertise .exp-content .game {
+  border-right: 1px solid #f2f2f2;
+}
+.team {
+  background: url(../img/bg-team.png);
+  padding: 71px 0;
+}
+.team h3 {
+  color: white;
+  font-family: PlayfairDisplayRegular;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.team p {
+  color: #f9f9f9;
+  font-family: PlayfairDisplayRegular;
+  font-size: 14px;
+  font-weight: 400;
+}
+.team p.dev:after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: white;
+  margin: 15px auto;
+}
+.team .member-team {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.team .member-team img {
+  height: 220px;
+  width: 230px;
+}
+.team .member-team .info-team {
+  width: 230px;
+  border: 1px solid #5e537a;
+  margin: -4px auto 0;
+  padding: 10px;
+}
+.team .member-team .info-team h4 {
+  color: white;
+  font-family: RobotoRegular;
+  font-size: 14px;
+  font-weight: 900;
+}
+.team .member-team .info-team h6 {
+  color: #fafafa;
+  font-family: RobotoRegular;
+  font-size: 13px;
+  font-weight: 400;
+  opacity: 0.7;
+  margin: 10px 0;
+}
+.team button {
+  color: #00e0d0;
+  font-family: PlayfairDisplayRegular;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 40px;
+}
+.our-work {
+  padding: 70px 0;
+}
+.our-work h2 {
+  color: #413d4b;
+  font-family: PlayfairDisplayRegular;
+  font-size: 22px;
+  font-weight: 700;
+}
+.our-work a {
+  color: #413d4b;
+  font-family: RobotoRegular;
+  font-size: 14px;
+  font-weight: 300;
+}
+.our-work a:after {
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 13px;
+  background-image: url(../img/right154.png);
+  margin-left: 10px;
+  vertical-align: middle;
+}
+.our-work .img-area {
+  margin-top: 50px;
+}
+.our-work .img-area img {
+  width: 300px;
+  height: 150px;
+}
+.our-work .img-area .second-area {
+  margin-top: 20px;
+}
+.comment {
+  padding: 20px 0;
+  background: url(../img/bg-coment.png) no-repeat center;
+}
+.comment p {
+  color: white;
+  font-family: PlayfairDisplayRegular;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.comment p:before {
+  content: '';
+  display: block;
+  width: 32px;
+  height: 26px;
+  background: url(../img/kav.png);
+  margin: 40px auto;
+}
+.comment h4 {
+  color: white;
+  font-family: RobotoRegular;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 22px;
+  margin-top: 40px;
+}
+.comment h6 {
+  color: white;
+  font-family: RobotoRegular;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 22px;
+}
+.comment ul {
+  margin-top: 40px;
+}
+.comment ul li {
+  margin: 0 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.client {
+  padding: 50px 0;
+}
+.client h3 {
+  color: #413d4b;
+  font-family: PlayfairDisplayRegular;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.client input {
+  padding-left: 20px;
+  color: #413d4b;
+  font-family: RobotoRegular;
+  font-size: 14px;
+  font-weight: 300;
+  border-color: #eee;
+}
+.client textarea {
+  padding-left: 20px;
+  height: 200px;
+  color: #413d4b;
+  font-family: RobotoRegular;
+  font-size: 14px;
+  font-weight: 300;
+}
+.client button {
+  color: #00e0d0;
+  font-family: PlayfairDisplayRegular;
+  font-size: 16px;
+  font-weight: 400;
+  border-color: #00e0d0;
+}
+.client img {
+  margin-bottom: 40px;
+}
+footer {
+  background: url(../img/bg-footer.png) no-repeat center;
+  height: 400px;
+  padding: 50px 0;
+}
+footer .foot-logo {
+  color: #10b4b6;
+  font-family: RobotoRegular;
+  font-size: 30px;
+  font-weight: 100;
+}
+footer .foot-logo:before {
+  content: '';
+  display: inline-block;
+  width: 44px;
+  height: 50px;
+  background: url(../img/logo.png) no-repeat center;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+footer p {
+  color: white;
+  font-family: RobotoRegular;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 26px;
+  width: 280px;
+}
+footer p.studio {
+  padding-left: 40px;
+  position: relative;
+}
+footer p.studio:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 17px;
+  height: 19px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+footer p.adress:before {
+  background-image: url(../img/big104.png);
+}
+footer p.ph:before {
+  background-image: url(../img/phone351.png);
+}
+footer h3 {
+  color: white;
+  font-family: RobotoRegular;
+  font-size: 15px;
+  font-weight: 900;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+footer input[type="text"] {
+  background-color: transparent;
+  color: #9a93ad;
+  font-family: RobotoRegular;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 26px;
+  border-color: #9a93ad;
+}
+footer button {
+  background: url(../img/paper122.png) no-repeat center;
+  width: 70px;
+  height: 40px;
+}
+footer ul.social li {
+  display: inline-block;
+}
+footer ul.social li a {
+  display: block;
+  width: 35px;
+  height: 35px;
+  border: 1px solid white;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+footer ul.social li.facebook a {
+  background-image: url(../img/facebook25.png);
+}
+footer ul.social li.tweeter a {
+  background-image: url(../img/twitter16.png);
+}
+footer ul.social li.dribble a {
+  background-image: url(../img/dribbble4.png);
+}
+footer ul.social li.instagram a {
+  background-image: url(../img/instagram3.png);
+}
+footer ul.social li.gplus a {
+  background-image: url(../img/google26.png);
+}
+footer ul.social li.youtube a {
+  background-image: url(../img/youtube13.png);
+}
+footer .copyright {
+  margin-top: 100px;
+}
+footer .copyright a {
+  color: white;
+  font-family: RobotoRegular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+}
